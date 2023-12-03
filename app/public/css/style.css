@@ -20,9 +20,6 @@ body {
   height: 2000px;
 }
 
-.box {
-  /* border: 1px solid #fff; */
-}
 .box:hover {
   background-color: #fff;
 }
