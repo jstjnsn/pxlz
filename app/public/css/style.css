@@ -8,29 +8,16 @@ body {
   font-family: sans-serif;
 }
 
-canvas#app1 {
-  position: absolute;
-}
-
-#send1 {
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
-}
-
-#output1 {
-  color: #fff;
-  position: absolute;
-  top: 2rem;
-  left: 1rem;
-}
-
 #app2 {
+  position: absolute;
+  top: -1000px;
+  left: -1000px;
   background-color: #000;
   color: #fff;
   display: flex;
   flex-wrap: wrap;
-  overflow: auto;
+  width: 2000px;
+  height: 2000px;
 }
 
 .box {
